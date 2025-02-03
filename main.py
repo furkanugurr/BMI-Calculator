@@ -29,7 +29,6 @@ def calculate_bmi():
 window = tk.Tk()
 window.title("BMI Calculator")
 window.geometry("300x250")
-window.resizable(False,False)
 
 tk.Label(window, text="Kilo (kg):").pack(pady=5)
 weight_entry = tk.Entry(window)
